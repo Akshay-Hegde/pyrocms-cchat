@@ -1,0 +1,40 @@
+#conversejs,
+#conversejs .chat-title, 
+#conversejs .restore-chat,
+#conversejs .chat-textarea {
+  font-family: Helvetica, Helvetica Neue, Arial;
+}
+
+#conversejs ul#controlbox-tabs li:last-child {
+  display: none !important;
+}
+
+#conversejs #users #converse-roster .filter-type,
+#conversejs #users #converse-roster [class*=" chzn-"] {
+  display: none !important;
+}
+
+#conversejs #users #converse-roster .roster-filter {
+  width: 100%;
+  padding: 1px 5px;
+}
+
+#conversejs #users #converse-roster .remove-xmpp-contact {
+  display: none !important;
+}
+
+#conversejs .sendXMPPMessage li.toggle-otr {
+  display: none !important;
+}
+
+#conversejs [class^="icon-"], [class*=" icon-"] {
+  width: 16px;
+  height: 16px;
+  background-image: none;
+}
+
+#conversejs a.close-chatbox-button, 
+#conversejs a.configure-chatroom-button, 
+#conversejs a.toggle-chatbox-button {
+  font-size: 15px;
+}

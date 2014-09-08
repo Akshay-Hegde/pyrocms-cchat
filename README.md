@@ -3,6 +3,8 @@ pyrocms-cchat
 
 A simple chat module for PyroCMS (2.2.x). This uses conversejs and requires an XMPP server (using Prosody at the moment).
 
+Here are the instructions on [running your own XMPP service with Prosody](http://richard.malibiran.com/2014/08/run-your-own-xmpp-service-with-prosody/). :)
+
 Features
 =================
 - Create/Register a chat account (Administrators only)
